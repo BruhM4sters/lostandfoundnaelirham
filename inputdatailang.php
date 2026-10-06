@@ -13,6 +13,4 @@ VALUES ('$gambar, $namabarang, $tempatditemukan, $waktuditemukan, $status')");
 
 header ("location: ");
 
-
-
 ?>
