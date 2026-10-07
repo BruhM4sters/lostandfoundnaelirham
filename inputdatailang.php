@@ -11,6 +11,6 @@ mysqli_query($koneksi, "INSERT INTO baranghilang (gambar,namabarang,tempatditemu
 
 VALUES ('$gambar, $namabarang, $tempatditemukan, $waktuditemukan, $status')");
 
-header ("location: ");
+header ("location: barangilang.php");
 
 ?>

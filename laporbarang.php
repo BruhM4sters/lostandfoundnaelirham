@@ -6,12 +6,6 @@
 body{
 background: aqua;
 
-        font-family: Arial, sans-serif;
-        line-height: 1.5;
-        padding-left: 20px;
-    
-        margin-bottom: 5px;
-    
 }
         </style>
     </head>
@@ -28,35 +22,35 @@ background: aqua;
 <td>:</td>
 <td>
 <td><input type="text" name="namabarang"></td>
-</td>
+</tr>
 <tr>
 <td>
 Tempat Ditemukan
 </td>
 <td>:</td>
 <td>
-<td><input type="text" name="tempatditemukan"></td>
-</td>
+<td><input type="text" id="tempatditemulan" name="tempatditemukan"></td>
 </tr>
 <tr>
     <td>waktuditemukan</td>
     <td>:</td>
     <td>
-    <td><input type="datetime" name="waktuditemukan"></td>
-    </td>
+    <td><input type="datetime" id="waktuditemukan" name="waktuditemukan"></td>
 </tr>
+<tr>
 <td>STATUS BARANG</td>
 <td>:</td>
 <td>
-<td><input type="button" name="status" values="Ditemukan">Ditemukan</td>
-<td><input type="button" name="status" values="Hilang">HILANG</td>
+<td><input type="radio" name="status" values="Ditemukan">Ditemukan</td>
+<td><input type="radio" name="status" values="Hilang">HILANG</td>
 </td>
+</tr>
 </tr>
 <tr>
     <td>Gambar</td>
     <td>:</td>
     <td>
-    <td><input type="url" name="gambar">
+    <td><input type="file"  id="gambar" name="gambar">
     </td>
 </tr>
 <tr>
